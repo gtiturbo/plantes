@@ -354,15 +354,15 @@ uint32_t number_setchauffmin = 18;
 /****************************
     WIFI partial variable
 ****************************/
-const char *ssid = "Livebox-Franck";
-const char *pass = "3E557757";
+const char *ssid = "********";
+const char *pass = "********";
 const char *soft_ap_ssid = "ESP32_BOITIER";   //--> access point name
 const char *soft_ap_password = "helloesp32";  //--> access point password
 IPAddress local_ip(192, 168, 1, 1);
 IPAddress gateway(192, 168, 1, 1);
 IPAddress subnet(255, 255, 255, 0);
-unsigned long myChannelNumber = 317227;          //317227
-const char *myWriteAPIKey = "5ZE7PCLBY340VXVJ";  //5ZE7PCLBY340VXVJ
+unsigned long myChannelNumber = ******;          
+const char *myWriteAPIKey = "*************";
 bool moteur = 0;
 /*************
     CORE 1
